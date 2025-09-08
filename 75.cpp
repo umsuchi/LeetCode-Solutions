@@ -10,4 +10,4 @@ public:
             else swap(nums[h], nums[mid]), h--;
         }
     }
-}; // 3 pointers ,,, Dutch National Flag Algorithm
+}; // 3 pointers ,,,  Dutch National Flag Algorithm
