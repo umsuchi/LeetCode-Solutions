@@ -12,7 +12,6 @@ public:
             rev += n;
             x /= 10;
         }
-
         return rev;
     }
 };
