@@ -1,9 +1,10 @@
 class Solution {
 public:
     int reverse(int x) {
-        int rev = 0;
+        unsigned int rev = 0;
+        int a = x;
 
-        while(x != 0){
+        while((unsigned)x != 0){
             int n = x % 10;
             if(rev > INT_MAX / 10 && rev < INT_MIN / 10) 
                 return 0;
@@ -12,6 +13,7 @@ public:
             rev += n;
             x /= 10;
         }
+        
         return rev;
     }
 };
